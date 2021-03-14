@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Testiappi"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="c9b489ed-5d5e-4111-b1c8-b0660868279b"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

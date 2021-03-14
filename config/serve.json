@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://juhohi.sharepoint.com/sites/TestiSivu/SitePages/Home.aspx",
+      "customActions": {
+        "c9b489ed-5d5e-4111-b1c8-b0660868279b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "testiappi": {
+      "pageUrl": "https://juhohi.sharepoint.com/sites/TestiSivu/SitePages/Home.aspx",
+      "customActions": {
+        "c9b489ed-5d5e-4111-b1c8-b0660868279b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
